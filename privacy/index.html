@@ -38,17 +38,15 @@
         <li>las líneas de la lista: nombre del producto, cantidad, unidad, precio, si está comprado y de qué receta sale;</li>
         <li>el nombre que pongas (opcional) para que los demás sepan quién ha apuntado qué;</li>
         <li>un identificador anónimo de sesión (no se pide email, teléfono ni contraseña);</li>
-        <li>si activas los avisos, un identificador del móvil para enviártelos (token de Expo / Firebase Cloud Messaging).</li>
       </ul>
       <p>Solo pueden verlo las personas de esa lista. Al tocar «Dejar de compartir» se borran del servidor tu sesión, tu
-        nombre y tu identificador de avisos; la lista se borra cuando sale la última persona. Lo que hayas apuntado sigue en
+        nombre; la lista se borra cuando sale la última persona. Lo que hayas apuntado sigue en
         la lista de los demás mientras ellos la mantengan.</p>
       <p>Base legal: la ejecución del servicio que pides (compartir la lista).</p>
 
       <h2>3. Avisos</h2>
-      <p>Los avisos de caducidad, del plan y de los temporizadores se programan en el propio móvil. Los avisos de la lista
-        compartida («Ana ha añadido 3 cosas a la compra») los envía el servidor a través del servicio de notificaciones de
-        Expo y de Google (Firebase Cloud Messaging), solo si los activas.</p>
+      <p>Los avisos de caducidad, del plan y de los temporizadores se programan en el propio móvil: no pasan por ningún
+        servidor.</p>
 
       <h2>4. Anuncios</h2>
       <p>La app es gratuita y muestra anuncios de <strong>Google AdMob</strong>, <strong>no personalizados</strong>, en
